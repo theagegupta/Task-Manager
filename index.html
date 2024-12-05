@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do</title>
+    <link rel="shortcut icon" href="images/to-do-list.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/85e0fd23f4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div id="header-container">
+            <img id="logo-todolist" src="images/to-do-list.png" alt="img">
+            <div id="heading">
+                <h1 id="mainHeading"><img src="" alt="">To-Do List App</h1>
+                <h4 id="sub-heading">Just get it done!</h4>
+            </div>
+        </div>
+    </header>
+    <div id="main-container" >
+        <div id="new-task-container">
+        <input type="text" id="task-input" placeholder="Add task">
+        <input type="date" id="date-input">
+        <button id="task-add-button" onclick="addTask();
+        ">Add</button>
+
+        </div>
+
+        <div class="task-list">
+            
+                <p class="task pending-task"><i class="fa-regular fa-plus fa-spin-pulse fa-sm" style="margin-right: 10px; color: #e1e6e6;"></i>
+                    Please add a task
+                </p>
+        
+        </div>
+
+    </div>
+    <applet code = HelloWorld.class></applet>
+
+    <script src="todo.js"></script>
+</body>
+</html>
